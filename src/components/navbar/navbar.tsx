@@ -11,12 +11,12 @@ export default function FloatingNavDemo() {
     },
     {
       name: "GitHub",
-      link: "/about",
+      link: "https://github.com/614Poste",
       
     },
     {
       name: "Contacto",
-      link: "/contact",
+      link: "mailto:rikardolujan98@gmail.com",
       
     },
   ];

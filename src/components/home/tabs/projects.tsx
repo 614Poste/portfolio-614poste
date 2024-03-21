@@ -52,8 +52,8 @@ export default function TabsDemo() {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#6d9886] to-[#3f3d56]">
           <p>Mi portafolio</p>
           <p className="text-sm font-light">No se si es muy egocientrico, pero la verdad estuve trabajando en los efectos. </p>
-          <Link href={"https://github.com/NathanLazo/terraplot"} className="text-sm font-normal "> Mira el Git aquí</Link>
-          <Link href={"https://terraplot.vercel.app"} className="text-sm font-normal "> Mira la web aquí</Link>
+          <Link href={"https://github.com/614Poste/portfolio-614poste"} className="text-sm font-normal "> Mira el Git aquí</Link>
+          
           <TerraP/>
         </div>
       ),
