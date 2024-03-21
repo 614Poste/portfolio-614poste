@@ -1,5 +1,6 @@
 "use client";
 import { cn } from "@/utils/cn";
+import Link from "next/link"
 import { motion, MotionValue } from "framer-motion";
 import React from "react";
 
@@ -29,9 +30,9 @@ export const ScrollGit = ({
           `Sinceramente no hay mucho, generalmente soy colaborador de otros camaradas 😝`}
       </p>
       <div className="w-full h-[890px] -top-60 md:-top-40  flex items-center justify-center bg-red-transparent absolute ">
-        <button className="font-bold bg-white rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-black text-xs  w-fit mx-auto ">
+        <Link href={"https://github.com/614poste"} className="font-bold bg-white rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-black text-xs  w-fit mx-auto ">
           GitHub
-        </button>
+        </Link>
       </div>
       <svg
         width="1440"
