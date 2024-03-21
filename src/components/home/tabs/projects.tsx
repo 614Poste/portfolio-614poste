@@ -4,6 +4,7 @@ import Image from "next/image";
 import Umami from "@/web/umami.png"
 import Gemi from "@/web/geminis.jpg"
 import Terra from "@/web/terraplot.png"
+import Port from "@/web/port.png"
 import { Tabs } from "@/components/ui/tabs";
 
 export default function TabsDemo() {
@@ -49,12 +50,12 @@ export default function TabsDemo() {
       title: "Portafolio",
       value: "Portafolio",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#6d9886] to-[#3f3d56]">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#b869d2] to-[#1c9bb3]">
           <p>Mi portafolio</p>
           <p className="text-sm font-light">No se si es muy egocientrico, pero la verdad estuve trabajando en los efectos. </p>
           <Link href={"https://github.com/614Poste/portfolio-614poste"} className="text-sm font-normal "> Mira el Git aquí</Link>
           
-          <TerraP/>
+          <Porta/>
         </div>
       ),
     },
@@ -99,6 +100,17 @@ const Gemini = () => {
       width="2500"
       height="2500"
       className="object-cover object-left-top h-[50%]  md:h-[70%] absolute bottom-10 inset-x-0 w-[50%] rounded-xl mx-auto"
+    />
+  );
+};
+const Porta= () => {
+  return (
+    <Image
+      src={Port}
+      alt="gemini"
+      width="2500"
+      height="2500"
+      className="object-cover object-left-top h-[50%]  md:h-[70%] absolute bottom-5 inset-x-0 w-[80%] rounded-xl mx-auto"
     />
   );
 };
