@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Umami from "@/web/umami.png"
 import Gemi from "@/web/geminis.jpg"
-import Terra from "@/web/terraplot.png"
+import Chat from "@/web/chat.png"
 import Port from "@/web/port.png"
 import { Tabs } from "@/components/ui/tabs";
 
@@ -34,14 +34,14 @@ export default function TabsDemo() {
       ),
     },
     {
-      title: "Terra Plot",
-      value: "terraplot",
+      title: "Realtime Chat",
+      value: "realtime chat",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#6d9886] to-[#3f3d56]">
-          <p>Terra Plot</p>
-          <p className="text-sm font-light">Proyecto de Hackaton con compañeros, sus nombres están en el git. </p>
-          <Link href={"https://github.com/NathanLazo/terraplot"} className="text-sm font-normal "> Mira el Git aquí</Link>
-          <Link href={"https://terraplot.vercel.app"} className="text-sm font-normal "> Mira la web aquí</Link>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#1f2937] to-[#646ee4]">
+          <p>Realtime Chat</p>
+          <p className="text-sm font-light">Proyecto de prueba de trabajo para IKA. </p>
+          <Link href={"https://github.com/614Poste/chat-ika"} className="text-sm font-normal "> Mira el Git aquí</Link>
+          <Link href={"https://realtime-chat-six-theta.vercel.app"} className="text-sm font-normal "> Mira la web aquí</Link>
           <TerraP/>
         </div>
       ),
@@ -83,7 +83,7 @@ const Uma = () => {
 const TerraP = () => {
   return (
     <Image
-      src={Terra}
+      src={Chat}
       alt="umami"
       width="2500"
       height="2500"
